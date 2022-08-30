@@ -3,9 +3,7 @@
 # Python Basics
 # Part 1: Calculating Simple Interest
 
-from lib2to3.pgen2.token import NEWLINE
-from tokenize import String
-
+print("\nPart 1: Calculating Simple Interest")
 
 def SimpleInterest(principal, number_of_years, rate_of_interest):
     return (principal * number_of_years * rate_of_interest)/100

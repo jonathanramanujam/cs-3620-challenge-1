@@ -3,6 +3,8 @@
 # Python Basics
 # Part 2: List of Food Items
 
+print("\nPart 2: List of Food Items")
+
 favorite_foods = [  'chicken coconut korma',
                     'sushi',
                     'cheeseburger',
