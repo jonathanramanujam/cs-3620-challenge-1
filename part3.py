@@ -11,8 +11,8 @@ for x in range(5):
 
 print("\nSquare values of 1 - 9")
 
-def SquareValue(number):
-    return number**2
+def SquareValuesOneToNine():
+    for x in range(1, 10):
+        print(f"{x}^2 = {x**2}")
 
-for x in range(1, 10):
-    print(f"{x}^2 {SquareValue(x)}")
+SquareValuesOneToNine()
